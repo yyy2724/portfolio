@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 REPOSITORY=/home/ubuntu/portfolio
 cd $REPOSITORY
 
