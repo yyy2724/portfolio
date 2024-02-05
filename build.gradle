@@ -39,6 +39,7 @@ dependencies {
     implementation 'mysql:mysql-connector-java'
 }
 
+
 tasks.named('test') {
     useJUnitPlatform()
 }
