@@ -9,9 +9,9 @@ on:
 # 리전, 버킷 이름, CodeDeploy 앱 이름, CodeDeploy 배포 그룹 이름
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: portfolio-yanghyeon-s3
-  CODE_DEPLOY_APPLICATION_NAME: portfolio-code-deploy
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: portfolio-server
+  S3_BUCKET_NAME: portfolio-yanghyeon-bucket
+  CODE_DEPLOY_APPLICATION_NAME: portfolio
+  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: portfolio_instance
 
 permissions:
   contents: read
