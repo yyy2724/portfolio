@@ -1,7 +1,7 @@
 
 # git ??? ?? ???
 server:
-  port: 8080
+  port: 8090
 spring:
   main:
     allow-bean-definition-overriding: true
