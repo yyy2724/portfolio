@@ -15,18 +15,18 @@ public class HomeController {
     @GetMapping("/project1")
     public String project1(){
 
-        return "/project1";
+        return "project1";
     }
 
     @GetMapping("/project2-3")
     public String project23(){
 
-        return "/project2-3";
+        return "project2-3";
     }
 
     @GetMapping("/movingMate")
     public String movingMate(){
 
-        return "/movingMate";
+        return "movingMate";
     }
 }
